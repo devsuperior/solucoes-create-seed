@@ -47,6 +47,7 @@ CREATE TABLE tb_foto (
 ALTER TABLE tb_usuario ADD FOREIGN KEY(foto_de_perfil_id) REFERENCES tb_foto(uri);
 
 
+
 -- SEED
 
 INSERT INTO tb_usuario(nome, email, nascimento, website, genero, telefone, foto_de_perfil_id) VALUES ('João Silva', 'joao@gmail.com', '1991-10-15', null, 'M', null, null);
